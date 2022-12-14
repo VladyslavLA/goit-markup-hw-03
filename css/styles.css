@@ -167,7 +167,7 @@ header .container{
 }
 
  .hero .container {
-	 text-align: center;
+	text-align: center;
 }
 
 .hero-tittle {
@@ -386,20 +386,20 @@ header .container{
 }
 
 .filters-btn {
-	 display: flex;
-	 padding: 12px 24px; 
-	 font-family: inherit;
-	 font-weight: 500;
-	 font-size: 16px;
-	 color: var(--primary-iris-color);
-	 cursor: pointer;
-	 align-items: center;
-	 letter-spacing: 0.04em; 
-	 line-height: 1.5;
-	 height: 48px;   
-	 background: var(--light-color);
-	 border: 1px solid #E7E9FC;
-	 border-radius: 4px; 
+	display: flex;
+	padding: 12px 24px; 
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	color: var(--primary-iris-color);
+	cursor: pointer;
+	align-items: center;
+	letter-spacing: 0.04em; 
+	line-height: 1.5;
+	height: 48px;   
+	background: var(--light-color);
+	border: 1px solid #E7E9FC;
+	border-radius: 4px; 
 }
 .filters-btn:hover,
 .filters-btn:focus{
@@ -419,7 +419,7 @@ header .container{
     gap: 24px;
 }
 .project-list .project-item{
-	 width: calc( (100% - 48px) / 3)
+	width: calc( (100% - 48px) / 3)
 }
 
 .project-item{
