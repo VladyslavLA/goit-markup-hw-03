@@ -139,12 +139,15 @@ header .container{
     align-items: center;
 	justify-content:right;
 	gap: 40px;
-	margin-left: 331px;
-	padding-top: 24px;
-	padding-bottom: 24px;
+	margin-left: auto;
+	/* padding-top: 24px;
+	padding-bottom: 24px; */
 }
 
 .contacts-link {
+	padding-top: 24px;
+	padding-bottom: 24px;
+
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
@@ -158,12 +161,12 @@ header .container{
 /* Hero section */
 
 .hero {
+	padding-top: 192px;
+	padding-bottom:192px;  
 	background-color: var(--dark-navyblue-color);
 }
 
  .hero .container {
-	 padding-top: 192px;
-	 padding-bottom:192px;  
 	 text-align: center;
 }
 
@@ -209,9 +212,9 @@ header .container{
 
 /* Features section */
 
-.features .container{
-	margin-top: 120px;
-	margin-bottom: 120px;
+.features {
+	padding-top: 120px;
+	padding-bottom: 120px;
 }
 
 .features-list {
@@ -248,6 +251,9 @@ header .container{
 
 /* What are we doing */
 
+.work{
+	padding-bottom: 120px;
+}
 .work .container{
 	text-align: center;
 }
@@ -265,19 +271,18 @@ header .container{
 .work-list {
 	display: flex;
 	gap: 24px;
-	margin-bottom: 120px;
 }
 
 /* Our Team */
 
 .team {
+	padding-top: 120px;
+	padding-bottom: 120px;
 	background-color: var(--light-color);
 }
 
 .team .container{
 	text-align: center;
-	padding-top: 120px;
-	padding-bottom: 120px;
 }
 
 .team-tittle {
@@ -329,12 +334,9 @@ header .container{
 /* FOOTER */
 
 .footer {
-	background-color: var(--dark-navyblue-color);
-}
-
-.footer-content{ 
 	padding-top: 100px;
 	padding-bottom: 100px;
+	background-color: var(--dark-navyblue-color);
 }
 
 .ftlogo-first {
@@ -372,12 +374,15 @@ header .container{
 
 /* Filters */
 
+.portfolio{
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
 .filters-btn-list{
 	display: flex;
 	justify-content: center;
 	gap: 24px;
-	padding-top: 96px;
-	padding-bottom: 72px;
+	margin-bottom: 72px;
 }
 
 .filters-btn {
@@ -385,26 +390,24 @@ header .container{
 	 padding: 12px 24px; 
 	 font-family: inherit;
 	 font-weight: 500;
+	 font-size: 16px;
 	 color: var(--primary-iris-color);
 	 cursor: pointer;
-	 align-items: center;  
+	 align-items: center;
+	 letter-spacing: 0.04em; 
+	 line-height: 1.5;
 	 height: 48px;   
 	 background: var(--light-color);
 	 border: 1px solid #E7E9FC;
-	 border-radius: 4px;
+	 border-radius: 4px; 
 }
 .filters-btn:hover,
 .filters-btn:focus{
-	font-family: inherit;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.04em;
 	color: var(--hero-white-color);
 	background: var(--primary-iris-color);
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 	border-radius: 4px;
-	border: none;
+	border: 1px solid var(--primary-iris-color);
 }
 
 /* Project */
@@ -414,7 +417,6 @@ header .container{
     flex-direction: row;
     flex-wrap: wrap;
     gap: 24px;
-	padding-bottom: 120px;
 }
 .project-list .project-item{
 	 width: calc( (100% - 48px) / 3)
@@ -423,16 +425,20 @@ header .container{
 .project-item{
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start; 
 	padding: 0px;
+} 
+
+.content-wrapper{
+	padding-top: 32px;
+	padding-bottom: 32px;
 	border: 0.5px solid #F4F4FD;
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-
+	border-top: none;
+	/* max-width: 264px;  */
 }
 
 .project-tittle {
-	margin-top: 32px;
-	padding-bottom: 8px;
+	margin-bottom: 8px;
 	padding-left: 16px;
 
 	font-weight: 500;
@@ -443,7 +449,6 @@ header .container{
 }
 .about {
 	padding-left: 16px;
-	margin-bottom: 32px;
 
 	font-size: 16px;
 	line-height: 1.5;
